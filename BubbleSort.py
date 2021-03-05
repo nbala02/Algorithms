@@ -1,5 +1,4 @@
 def bubbleSort(values):
-  print(values)
   for i in range(len(values)-1):
     for j in range (0, len(values)-1):
       if values[j] > values[j+1]:
